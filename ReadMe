@@ -1,0 +1,22 @@
+Author: Patrick Tibbals
+
+a.
+The Height of the Huffman tree in terms of n unique elements will be equal to log n elements.
+   encode time complexity  -> O(n)
+   decode time complexity  -> O(n) ?
+I am confused with the recursion involved in my method is it still just n since im only going over the input string once?
+
+b.
+Huffman encoding is suitable for text and program files but not well suited for image files.
+The more repeated characters allow for more compressed information. I think the linked list implementation would
+compromise the structure we would need to use a priority queue and ensure that we push the element behind any of duplicate
+priority.
+
+c.
+I spent around 12 hours of coding on the assignment I ended up figuring out how to turn a array of items into a min
+heap. Then had to undo that to make a heap with an add remove; once I began the actually Huffman encoding I had so much
+practice making and traversing min and max heaps the program came together nicely. I struggled with identify the correct
+Big O of my decode method I wouldn't mind clarifying the actual time complexity with you. My most rewarding part was
+finally getting the output formatted up and producing a nice looking output file really helped solidify what we were
+trying to do and how that was accomplished. The example in the powerpoint was a main source of confusion before I wrote
+down the tree and heap on paper.
